@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiApp1.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiApp1"
+    Shell.FlyoutBehavior="Disabled"
+    Title="TabFlyout">
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    <!--    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="First Page" ContentTemplate="{DataTemplate local:FirstPage}"/>
+        <ShellContent Title="Second Page" ContentTemplate="{DataTemplate local:SecondPage}"/>
+    </FlyoutItem>-->
+    <!--<TabBar>
+        <Tab Title="First Page" Icon="dotnet_bot.png">
+            <ShellContent Title="First Page" ContentTemplate="{DataTemplate local:FirstPage}"/>
+        </Tab>
+        <Tab Title="Second Page" Icon="dotnet_bot.png">
+            <ShellContent Title="Second Page" ContentTemplate="{DataTemplate local:SecondPage}"/>
+        </Tab>
+    </TabBar> -->
+</Shell>

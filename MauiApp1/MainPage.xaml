@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+        Padding="30,0"
+        Spacing="10">
+            <Label Text="Username:"/>
+            <Entry x:Name="Username"/>
+            <Label Text="Email:"/>
+            <Entry x:Name="Email"/>
+            <Label Text="Password:"/>
+            <Entry x:Name="Password"/>
+            <Label Text="Confirm Password:"/>
+            <Entry x:Name="ConfPassword"/>
+            <Button
+            x:Name="CreateBtn"
+            Text="Create" 
+            Clicked="OnClicked"
+            HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

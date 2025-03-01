@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.UserPage"
+             Title="UserPage">
+    <Grid RowDefinitions="Auto, Auto,Auto,Auto" Padding="20">
+        <Image Grid.Row="0" x:Name="ContactsImage"/>
+        <Label Grid.Row="1" x:Name="LblUserName" FontSize="Title"/>
+        <Label Grid.Row="2" x:Name="LblEmail" FontSize="Title"/>
+        <Label Grid.Row="3" x:Name="LblPassword" FontSize="Title"/>
+    </Grid>
+</ContentPage>
